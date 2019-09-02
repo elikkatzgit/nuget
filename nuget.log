@@ -1,0 +1,253 @@
+[INFO] [2019-08-27 15:34:29,601 +0300] - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2019-08-27 15:34:29,606 +0300] - UnifiedAgent version (pluginVersion) : 19.7.3.1
+[INFO] [2019-08-27 15:34:29,626 +0300] - UA Configuration {
+includes=**/*.jar
+excludes=**/*sources.jar,**/*javadoc.jar
+dockerIncludes=.*.*
+dockerExcludes=
+dockerContainerIncludes=.*.*
+dockerContainerExcludes=
+pythonRequirementsFileIncludes=requirements.txt,Pipfile
+archiveExtractionDepth=0
+archiveIncludes=
+archiveExcludes=
+followSymbolicLinks=true
+globCaseSensitive=false
+projectPerFolderIncludes=*
+projectPerFolderExcludes=
+failErrorLevel=DEFAULT
+excludeDependenciesFromNodes=
+enableGenerateProjectDetailsJson=false
+artifactoryUrl=
+artifactoryRepoKeys=
+offline=false
+zip=false
+prettyJson=true
+imageNames=
+imageTags=
+imageDigests=
+forceDelete=false
+remoteDockerEnabled=false
+maxScanImages=0
+forcePull=false
+maxPullImages=10
+loginSudo=true
+defaultamazonRegistryIds=
+remoteDockerAmazonEnabled=false
+amazonRegion=east
+amazonMaxPullImages=0
+remoteDockerAzureEnabled=false
+azureUserName=
+azureUserPassword=
+azureRegistryNames=
+remoteDockerArtifactoryEnabled=false
+dockerArtifactoryUrl=
+dockerArtifactoryUserName=
+dockerArtifactoryUserPassword=
+dockerArtifactoryRepositoryNames=
+dockerArtifactoryDockerAccessMethod= 
+remoteDockerGoogleContainerEnabled=false
+googleRepositoryNames=
+googleActiveAccount=
+remoteDockerHubEnabled=false
+dockerHubUserName=
+dockerHubUserPassword=
+dockerHubOrganizationsNames=
+dockerHubAccessToken=
+apiToken=******
+userKey=
+projectVersion=1.0
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=nuget
+productVersion=1.0
+projectName=gdep-sol-Nok
+scanComment=
+requireKnownSha1=true
+scanReportFileNameFormat=project_with_timestamp
+artifactoryEnableScan=false
+resolveAllDependencies=true
+ignoreSourceFiles=false
+appPath=[]
+cargoResolveDependencies=true
+cargoRunPreStep=false
+cargoIgnoreSourceFiles=true
+npm: {npmRunPreStep=false, npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=false, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=false, npmYarnProject=false, npmYarnFrozenLockfile=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, npmResolveMainPackageJsonOnly=false, npmProjectNameFromDependencyFile=false, npmRemoveDuplicateDependencies=true, npmResolveAdditionalDependencies=false}
+bower: {bowerResolveDependencies=true, bowerRunPreStep=false, bowerIgnoreSourceFiles=false}
+nuget: {nugetResolveDependencies=true, nugetRestoreDependencies=true, nugetRunPreStep=true, nugetIgnoreSourceFiles=false, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=false, nugetResolveNuspecFiles=false, nugetPreferredEnvironment=, nugetPackagesDirectory=}
+ant: {antResolveDependencies=true, antPathidIncludes=, antExternalParameters=}
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=test,provided, mavenAggregateModules=true, mavenIgnorePomModules=false, mavenIgnoreSourceFiles=true, mavenRunPreStep=true, mavenIgnoreDependencyTreeErrors=true, mavenEnvironmentPath=, mavenM2Path=, mavenDownloadMissingDependencies=false, mavenAdditionalArguments=}
+python: {pythonResolveDependencies=true, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=requirements.txt,Pipfile, pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, pythonIndexUrl=, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false}
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=false, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleAdditionalArguments=, gradleIncludeScopes=, gradleBuildFileIncludes=, gradleIgnoreSourceFiles=false, gradleRunPreStep=false, gradleIgnoredScopes=, gradleDownloadMissingDependencies=true, gradleWrapperPath=gradleIncludeModules=
+gradleExcludeModules=
+}
+paket: {paketResolveDependencies=true, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true}
+go: {goResolveDependencies=true, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goIgnoreSourceFiles=false, goGradleEnableTaskAlias=false}
+ruby: {rubyResolveDependencies=true, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true}
+php: {phpResolveDependencies=true, phpRunPreStep=false, phpIncludeDevDependencies=false}
+sbt: {sbtResolveDependencies=true, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=, sbtIgnoreSourceFiles=false}
+html: {htmlResolveDependencies=true}
+cocoapods: {cocoapodsResolveDependencies=true, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true}
+hex: {hexResolveDependencies=true, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true}
+r: {rResolveDependencies=true, rRunPreStep=false, rIgnoreSourceFiles=true, rCranMirrorUrl=}
+bazel: {bazelResolveDependencies=false, bazelRunPreStep=false}
+checkPolicies=false
+serviceUrl=https://saas.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+enableImpactAnalysis=false
+updateInventory=true
+generateScanReport=false
+scanReportTimeoutMinutes=10
+analyzeFrameworks=false
+analyzeFrameworkReference=analyzeFrameworks.txt
+updateEmptyProject=true
+euaOffline=
+euaDep=euaDep.json
+euaVul=euaVul.json
+euaRes=euaRes.json
+serverlessConfiguration=
+DEFAULT_TIMEOUT_PROCESS_MINUTES=15
+projectPerFolder=false
+connectionTimeOut=60
+fileListPath=
+dependencyDirs=.
+configFilePath=C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions\wss-unified-agent.config
+scanPackageManager=false
+scanDockerImages=false
+scanDockerContainers=false
+scanServerlessFunctions=false
+logLevel=debug
+}
+[INFO] [2019-08-27 15:34:29,628 +0300] - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[DEBUG] [2019-08-27 15:34:29,718 +0300] - Available processors (cores): 	8
+Free memory (Mb): 	173
+Max memory (Mb): 	1799
+Total memory (Mb): 	358
+Used memory (Mb): 	184
+
+[INFO] [2019-08-27 15:34:29,729 +0300] - Starting analysis
+[INFO] [2019-08-27 15:34:29,729 +0300] - Scanning directories [C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions] for package dependencies (may take a few minutes)
+[INFO] [2019-08-27 15:34:29,730 +0300] - Included file types: **/*.jar
+[INFO] [2019-08-27 15:34:29,730 +0300] - Excluded file types: **/*sources.jar,**/*javadoc.jar
+[INFO] [2019-08-27 15:34:29,732 +0300] - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2019-08-27 15:34:29,733 +0300] - Scanning C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions
+[DEBUG] [2019-08-27 15:34:29,792 +0300] - Dependency file found location: C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions\packages.config
+[DEBUG] [2019-08-27 15:34:29,793 +0300] - Dependency file found location: C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions\wss-unified-agent.config
+[INFO] [2019-08-27 15:34:29,798 +0300] - Attempting to resolve dependencies
+[INFO] [2019-08-27 15:34:29,798 +0300] - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2019-08-27 15:34:29,807 +0300] - Dependency file found location: C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions\packages.config
+[DEBUG] [2019-08-27 15:34:29,808 +0300] - File/Folder Excluded: wss-unified-agent.config
+[DEBUG] [2019-08-27 15:34:29,810 +0300] - found folders:
+
+[DEBUG] [2019-08-27 15:34:29,811 +0300] - C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget
+[DEBUG] [2019-08-27 15:34:29,811 +0300] - 
+
+[DEBUG] [2019-08-27 15:34:29,819 +0300] - 
+
+[DEBUG] [2019-08-27 15:34:29,821 +0300] - Finishing reduce dependencies
+[INFO] [2019-08-27 15:34:29,823 +0300] - Trying to resolve NUGET dependencies
+[INFO] [2019-08-27 15:34:29,824 +0300] - topFolder = C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions
+[DEBUG] [2019-08-27 15:34:29,825 +0300] - topFolder = C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions
+[DEBUG] [2019-08-27 15:34:29,825 +0300] - Trying to run pre step on packages.config files
+[DEBUG] [2019-08-27 15:34:30,582 +0300] - Running command : 'nuget restore C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions\packages.config -PackagesDirectory C:\Users\ElikKatz\AppData\Local\Temp\WS-Dotnet_2524497e-980b-4910-a823-608913c78e8d\packages_1566909270582'
+[DEBUG] [2019-08-27 15:34:30,585 +0300] - CommandLineProcess - executeProcessCommand - start execute command 'nuget restore C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions\packages.config -PackagesDirectory C:\Users\ElikKatz\AppData\Local\Temp\WS-Dotnet_2524497e-980b-4910-a823-608913c78e8d\packages_1566909270582' in 'C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions'
+[DEBUG] [2019-08-27 15:34:30,698 +0300] - trying to read lines using 'nuget restore C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions\packages.config -PackagesDirectory C:\Users\ElikKatz\AppData\Local\Temp\WS-Dotnet_2524497e-980b-4910-a823-608913c78e8d\packages_1566909270582'
+[DEBUG] [2019-08-27 15:34:31,447 +0300] - Read line #1: Restoring NuGet package EntityFramework.6.0.0.
+[DEBUG] [2019-08-27 15:34:31,517 +0300] - Read line #2: Adding package 'EntityFramework.6.0.0' to folder 'C:\Users\ElikKatz\AppData\Local\Temp\WS-Dotnet_2524497e-980b-4910-a823-608913c78e8d\packages_1566909270582'
+[DEBUG] [2019-08-27 15:34:33,906 +0300] - Read line #3: Added package 'EntityFramework.6.0.0' to folder 'C:\Users\ElikKatz\AppData\Local\Temp\WS-Dotnet_2524497e-980b-4910-a823-608913c78e8d\packages_1566909270582'
+[DEBUG] [2019-08-27 15:34:33,942 +0300] - Finished reading 3 lines
+[DEBUG] [2019-08-27 15:34:33,943 +0300] - Read line #5: NuGet Config files used:
+[DEBUG] [2019-08-27 15:34:33,944 +0300] - Read line #6:     C:\Users\ElikKatz\AppData\Roaming\NuGet\NuGet.Config
+[DEBUG] [2019-08-27 15:34:33,944 +0300] - Finished reading 6 lines
+[DEBUG] [2019-08-27 15:34:33,945 +0300] - Read line #8: Feeds used:
+[DEBUG] [2019-08-27 15:34:33,945 +0300] - Read line #9:     C:\Users\ElikKatz\.nuget\packages\
+[DEBUG] [2019-08-27 15:34:33,945 +0300] - Read line #10:     https://api.nuget.org/v3/index.json
+[DEBUG] [2019-08-27 15:34:33,965 +0300] - Finished reading 10 lines
+[DEBUG] [2019-08-27 15:34:33,965 +0300] - Read line #12: Installed:
+[DEBUG] [2019-08-27 15:34:33,966 +0300] - Read line #13:     1 package(s) to packages.config projects
+[DEBUG] [2019-08-27 15:34:33,977 +0300] - Finished reading 13 lines
+[DEBUG] [2019-08-27 15:34:33,981 +0300] - Finish to run 'nuget restore C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions\packages.config -PackagesDirectory C:\Users\ElikKatz\AppData\Local\Temp\WS-Dotnet_2524497e-980b-4910-a823-608913c78e8d\packages_1566909270582', dependencies installed
+[DEBUG] [2019-08-27 15:34:33,982 +0300] - Scanning C:\Users\ElikKatz\AppData\Local\Temp\WS-Dotnet_2524497e-980b-4910-a823-608913c78e8d\packages_1566909270582
+[DEBUG] [2019-08-27 15:34:33,986 +0300] - Dependency file found location: C:\Users\ElikKatz\AppData\Local\Temp\WS-Dotnet_2524497e-980b-4910-a823-608913c78e8d\packages_1566909270582\EntityFramework.6.0.0\EntityFramework.6.0.0.nupkg
+[DEBUG] [2019-08-27 15:34:34,037 +0300] - Finish deleting directories of nuget restore
+[INFO] [2019-08-27 15:34:34,052 +0300] - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2019-08-27 15:34:34,054 +0300] - total resolved projects =1
+[INFO] [2019-08-27 15:34:34,056 +0300] - Total dependencies found for all resolvers: 1 (1 unique)
+[INFO] [2019-08-27 15:34:34,057 +0300] - Scanning directories [C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2019-08-27 15:34:34,057 +0300] - Scanning C:\Users\ElikKatz\Documents\WhitSource\Projects\Nuget\GDPEsolutions
+[INFO] [2019-08-27 15:34:34,060 +0300] - Total files found according to the includes/excludes pattern: 0
+[INFO] | [                                 ] 0% - 0 of 0 files                                                                                  [INFO] [2019-08-27 15:34:34,061 +0300] - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2019-08-27 15:34:34,061 +0300] - Finished analyzing Files
+[DEBUG] [2019-08-27 15:34:34,061 +0300] - Available processors (cores): 	8
+Free memory (Mb): 	170
+Max memory (Mb): 	1799
+Total memory (Mb): 	358
+Used memory (Mb): 	187
+
+[INFO] [2019-08-27 15:34:34,075 +0300] - Initializing WhiteSource Client
+[INFO] [2019-08-27 15:34:34,077 +0300] - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2019-08-27 15:34:34,308 +0300] - UpdateType set to OVERRIDE 
+[INFO] [2019-08-27 15:34:34,309 +0300] - Sending Update
+[INFO] [2019-08-27 15:34:34,310 +0300] - 
+------------------------------------------------------------------------
+-------------------- Start: Update Inventory ---------------------------
+------------------------------------------------------------------------
+[INFO] [2019-08-27 15:34:36,856 +0300] - 
+------------------------------------------------------------------------
+-------------------- End: Update Inventory -----------------------------
+------------------------------------------------------------------------
+[INFO] [2019-08-27 15:34:36,856 +0300] - Inventory update results for ElikKatz
+[INFO] [2019-08-27 15:34:36,857 +0300] - Newly created projects:
+[INFO] [2019-08-27 15:34:36,857 +0300] - # gdep-sol-Nok - 1.0
+[INFO] [2019-08-27 15:34:36,857 +0300] - No projects were updated.
+[INFO] [2019-08-27 15:34:36,857 +0300] - Project name: gdep-sol-Nok - 1.0, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=1436056
+[INFO] [2019-08-27 15:34:36,857 +0300] - Support Token: 39a8637003edc449fa31c0a1d0c3d7c791566909275624
+[DEBUG] [2019-08-27 15:34:36,859 +0300] - Process finished with exit code SUCCESS (Inventory update results for ElikKatz
+Newly created projects:
+gdep-sol-Nok - 1.0
+No projects were updated.
+
+Project name: gdep-sol-Nok - 1.0, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=1436056
+Support Token: 39a8637003edc449fa31c0a1d0c3d7c791566909275624)
+[INFO] [2019-08-27 15:34:36,921 +0300] - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                 Completion Status                              Elapsed                              Comments                              
+======================================================================================================================================================
+Fetch Configuration                     COMPLETED                                 00:00:00.147                           --------
+Pre-Step And Resolve Dependencies       COMPLETED                                 00:00:04.229                   1 total dependencies (1 unique)
+   NUGET                                COMPLETED                                 00:00:04.229                   1 total dependencies (1 unique)
+Scan Files Matching Includes Pattern    COMPLETED                                 00:00:00.063                   0 source/binary files
+Update Inventory                        COMPLETED                                 00:00:02.546                   0 updated projects
+
+======================================================================================================================================================
+Elapsed running time:                                                             00:00:06.985
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
